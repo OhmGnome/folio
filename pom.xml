@@ -6,7 +6,7 @@
 	<groupId>app</groupId>
 	<artifactId>folio</artifactId>
 	<version>0.1.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<commons.io.version>2.4</commons.io.version>
