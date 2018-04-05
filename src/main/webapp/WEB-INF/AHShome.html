@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JQuery Example</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/bootstrap4-partial.css">
+	<link rel="stylesheet" href="../css/core.css">
+	<link rel="stylesheet" href="./AHShome/AHShome.min.css">
+</head>
+
+<body>
+
+	<div class="container row">
+
+		<div id="hero" class="col s12 mt-5 mb-5">
+			<div class="col s12 m7">
+				<h2>
+					Affordable plans for
+					<br>inevitable breakdowns.
+				</h2>
+			</div>
+			<div class="col s12 m6">
+				<h5>Protect your home's systems and appliances from unexpected breakdowns with an American Home Shield&reg; Home Warranty.</h5>
+			</div>
+
+			<div class="col s12 hide-on-small-only">
+				<div class="mt-3 mb-3 col s12 m6">
+					<a id="getAQuote" class="btn btn-larger orange-bg z-depth-5">Get a Quote</a>
+					<p class="txt-normal center">It only takes a few seconds.</p>
+				</div>
+
+				<div class="col s12 valign-wrapper">
+					<a href="#poc-problem-solution" class="col w-auto mr-3">
+						<div class="icon-scroll">
+							<div class="icon-scroll-screen"></div>
+						</div>
+					</a>
+					<a href="#poc-problem-solution" class="col w-auto m-0 blue-txt bold underline">Learn More</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="anim" class="col s12">
+			<div id="poc-problem-solution">
+				<section class="poc-section" id="poc-problem">
+
+					<div class="containR">
+						<div id="decoy"></div>
+						<div id="poc-problem-graphic">
+							<img id="shield" src="./AHShome/img/poc-ac-shield.png">
+							<img id="smoke" src="./AHShome/img/poc-ac-smoke.png">
+							<img id="ac" src="./AHShome/img/poc-ac2.png">
+							<img id="contractor" src="./AHShome/img/poc-ac-contractor.png">
+							<img id="ac2" src="./AHShome/img/poc-ac2.png">
+							<img id="problemIndicator" src="./AHShome/img/ProbProbIndicator_RGB.png">
+						</div>
+						<div class="poc-problem-text">
+							<h3 class="red-txt">Nothing lasts forever.</h3>
+							<p class="txt-larger darker-grey-txt">You count on your systems and appliances to keep your home running, but everyday use can cause them to break down
+								over time.</p>
+						</div>
+						<hr class="dotted-line vert">
+						<hr class="dotted-line vert">
+					</div>
+
+				</section>
+				<section class="poc-section" id="poc-solution">
+
+					<div class="containR">
+						<div id="poc-solution-graphic"></div>
+						<div class="poc-solution-text">
+							<h3>Protection you can count on.</h3>
+							<p class="txt-larger darker-grey-txt">An AHS Home Warranty helps protect your budget by covering the repair or replacement of major parts and components
+								of your home’s systems and appliances.</p>
+						</div>
+						<hr class="dotted-line vert">
+						<a id="getAQuotePhone" class="btn btn-larger orange-bg z-depth-5">Get a Quote</a>
+					</div>
+
+				</section>
+			</div>
+		</div>
+
+		<div id="plans" class="col s12 mt-5">
+			<div class="hide-on-small-only w-90 m-auto position">
+				<div class="col card round-18 plan-bg white-bg z-depth-5 center">
+					<h4 class="light-blue-txt bold">
+						Systems Plan
+					</h4>
+					<p class="light-blue-txt txt-large">
+						<b>11</b> Critical Home Systems
+					</p>
+					<img src="./AHShome/img/siloAC1RGB.png">
+					<p class="txt-normal mt-0">Cover parts and components of plumbing, HVAC, electrical and more.</p>
+					<a class="btn btn-large btn-secondary blue-txt bold mt-2 mb-3">
+						<span>Select </span>Systems Plan</a>
+				</div>
+				<div class="col card round-18 combo-bg white-bg center">
+					<div id="save">
+						<div class="circle red-bg"></div>
+						<div class="white-txt center">
+							<div>SAVE</div>
+							<div class="w-25">UP TO</div>
+							<div class="w-75">30%</div>
+						</div>
+					</div>
+					<h4 class="white-txt bold">
+						Combo Plan
+					</h4>
+					<p class="white-txt txt-large">All 21 Systems and Appliances</p>
+					<img class="w-100" src="./AHShome/img/OvenPlusAc.png">
+					<p class="txt-normal">Both systems and appliances coverage at a reduced price.</p>
+					<a class="btn btn-large blue-bg mt-2 mb-3">Get a quote</a>
+				</div>
+				<div class="col card round-18 plan-bg white-bg z-depth-5 center">
+					<h4 class="light-blue-txt bold">
+						Appliances Plan
+					</h4>
+					<p class="light-blue-txt txt-large">
+						<b>10</b> Essential Appliances
+					</p>
+					<img src="./AHShome/img/siloOven1RGB.png">
+					<p class="txt-normal mt-0">Cover refrigerators, washers, dryers, ovens, cooktops and more.</p>
+					<a class="btn btn-large btn-secondary blue-txt bold mt-2 mb-3">
+						<span>Select </span>Appliances Plan</a>
+				</div>
+			</div>
+
+			<div class="carousel carousel-slider center hide-on-med-and-up" data-indicators="true">
+				<div class="carousel-item">
+					<div class="col card round-18 combo-bg white-bg center">
+						<div id="save">
+							<div class="circle red-bg"></div>
+							<div class="white-txt center">
+								<div>SAVE</div>
+								<div class="w-25">UP TO</div>
+								<div class="w-75">30%</div>
+							</div>
+						</div>
+						<h4 class="white-txt bold">Combo Plan&trade;</h4>
+						<p class="white-txt txt-large">All 21 Systems and Appliances</p>
+						<img class="w-100" src="./AHShome/img/OvenPlusAc.png">
+						<p class="txt-normal">Both systems and appliances coverage at a reduced price.</p>
+						<a class="btn btn-large blue-bg mt-2 mb-3">Get a quote</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="col card round-18 plan-bg white-bg z-depth-5 center">
+						<h4 class="light-blue-txt bold">Systems Plan&trade;</h4>
+						<p class="light-blue-txt txt-large">
+							<b>11</b> Critical Home Systems
+						</p>
+						<img class="w-60" src="./AHShome/img/siloAC1RGB.png">
+						<p class="txt-normal mt-0">Cover parts and components of plumbing, HVAC, electrical and more.</p>
+						<a class="btn btn-large btn-secondary blue-txt bold mt-2 mb-3">
+							<span class="hide-1200-down">Select </span>Systems Plan</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="col card round-18 plan-bg white-bg z-depth-5 center">
+						<h4 class="light-blue-txt bold">Appliances Plan&trade;</h4>
+						<p class="light-blue-txt txt-large">
+							<b>10</b> Essential Appliances
+						</p>
+						<img src="./AHShome/img/siloOven1RGB.png">
+						<p class="txt-normal mt-0">Cover refrigerators, washers, dryers, ovens, cooktops and more.</p>
+						<a class="btn btn-large btn-secondary blue-txt bold mt-2 mb-3">
+							<span class="hide-1200-down">Select </span>Appliances Plan</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="ml-auto mr-auto center mb-4 mt-5 w-75 txt-large">Or, choose the systems and appliances you want to cover with our flexible Build Your Own Plan. Like all home warranties,
+				our contracts have limitations and exclusions.</div>
+			<div class="m-auto center">
+				<a class="btn btn-large btn-secondary teal-txt teal-border bold mt-2 mb-3">Compare All Plans</a>
+			</div>
+		</div>
+
+		<div id="realty" class="col s12">
+			<div class="pos-rel">
+
+				<div class="card-content">
+					<h3 class="center red-txt">Unexpected breakdowns will happen.</h3>
+					<h5 class="center">When they do, an American Home Shield&reg; Home Warranty can help.</h5>
+				</div>
+
+				<div class="card-tabs mt-5">
+					<ul class="tabs tabs-fixed-width">
+						<li class="tab">
+							<a class="active txt-normal" data-i="0" href="#homeownersCard">Homeowners</a>
+						</li>
+						<li class="tab">
+							<a class="txt-normal" data-i="1" href="#homeBuyersCard">Home Buyers</a>
+						</li>
+						<li class="tab">
+							<a class="txt-normal" data-i="2" href="#homeSellersCard">Home Sellers</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="card-content cards">
+					<div id="homeownersCard" class="col s12 card">
+						<div class="col s12 m6 img right"></div>
+						<div class="col s12 m6 center left">
+							<div class="w-75 m-auto">
+								<h4 class="mt-4 mb-4">Help protect your budget from unexpected expenses.</h4>
+								<div class="mt-4 mb-4">
+									<h2 class="teal-txt bold">$3 BILLION</h2>
+									<p class="teal-txt bold txt-normal">paid in warranty claims over the past year, because we're the largest warranty provider.</p>
+									<p class="teal-txt txt-normal">(That's more than any other company.)</p>
+								</div>
+								<div class="mt-4 mb-4">
+									<p class="teal-txt txt-large">“Our home warranty helps us stay on budget, even when big repairs come up.”</p>
+									<p class="darker-grey-txt txt-normal">— JOE FPO</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="homeBuyersCard" class="col s12 card">
+						<div class="col s12 m6 img right"></div>
+						<div class="col s12 m6 center left">
+							<div class="w-75 m-auto">
+								<h4 class="mt-4 mb-4">Help protect your home from unexpected breakdowns while it's on the market.</h4>
+								<div class="mt-4 mb-4">
+									<h2 class="teal-txt bold">11</h2>
+									<p class="teal-txt bold txt-normal">days</p>
+								</div>
+								<div class="mt-4 mb-4">
+									<p class="teal-txt txt-large">Houses with home warranties sell an average of 11 days faster.</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div id="homeSellersCard" class="col s12 card">
+						<div class="col s12 m6 img right"></div>
+						<div class="col s12 m6 center left">
+							<div class="w-75 m-auto">
+								<h4 class="mt-4 mb-4">Worry about making your new house a home — not about how you'll handle breakdowns.</h4>
+								<div class="mt-4 mb-4">
+									<p class="teal-txt txt-large">“Our broker bought us a plan when we closed on our home and we haven't let it lapse in the four years since. Even
+										though our house and it's systems, are new, we've needed repairs or replacements every year that more than cover
+										the cost of the plan.”</p>
+									<p class="darker-grey-txt txt-normal">— Andrea M</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="prev" onclick="tabs.prev()">
+						<div class="btn-circle center hidden">
+							<i class="fa fa-chevron-left teal-txt" aria-hidden="true"></i>
+						</div>
+						<p class="teal-txt bold txt-large step center"></p>
+					</div>
+
+					<div class="next" onclick="tabs.next()">
+						<div class="btn-circle center">
+							<i class="fa fa-chevron-right teal-txt" aria-hidden="true"></i>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="ml-auto mr-auto center mt-5">
+				<a class="btn btn-large btn-secondary blue-txt blue-border bold">Compare Home Warranty Plans</a>
+			</div>
+		</div>
+
+		<div id="howItWorks" class="col s12">
+			<h3 class="center">Here's how our home warranties work.</h3>
+			<div class="v-line m-auto"></div>
+			<div class="valign-wrapper">
+				<div class="col s2 m2 l1 prev" onclick="slider.prev()">
+					<div class="btn-circle center hidden">
+						<i class="fa fa-chevron-left teal-txt" aria-hidden="true"></i>
+					</div>
+					<p class="teal-txt bold txt-large step center"></p>
+				</div>
+
+				<div class="col m8 l10 slider mr-auto">
+					<ul class="slides">
+						<li id="planCards">
+							<div class="center heading">
+								<img class="hide-on-med-and-up w-75" src="./AHShome/img/AcOvenFridge.png">
+								<p class="txt-normal light-grey-txt">Step 1 of 4</p>
+								<h4>Choose your plan.</h4>
+								<p class="txt-large blue-txt">Choose a plan to cover parts and components of your home's key systems, appliances or both.</p>
+							</div>
+							<div class="valign-wrapper hide-on-small-only">
+								<div class="col card round-18 plan-bg white-bg z-depth-5 center mr-2percent">
+									<h4 class="light-blue-txt bold">Systems Plan&trade;</h4>
+									<img class="w-65" src="./AHShome/img/siloAC1RGB.png">
+								</div>
+								<div class="col card round-18 combo-bg white-bg z-depth-5 center mr-2percent">
+									<h4 class="white-txt bold">Combo Plan&trade;</h4>
+									<img class="w-100" src="./AHShome/img/OvenPlusAc_halfy.png">
+								</div>
+								<div class="col card round-18 plan-bg white-bg z-depth-5 center">
+									<h4 class="light-blue-txt bold">Appliances Plan&trade;</h4>
+									<img class="w-60" src="./AHShome/img/siloOven1RGB.png">
+								</div>
+							</div>
+						</li>
+
+						<li id="tsf">
+							<div class="col m2 valign-wrapper hide-on-small-only">
+								<div class="h-line w-100"></div>
+							</div>
+							<div class="col s12 m8 m-auto valign-wrapper">
+								<div class="col s12 pos-rel">
+									<div class="col s4 m11 card round-12 plan-bg">
+										<h3 class="bold center dark-grey-txt quote-txt-large">$75</h3>
+										<p class="center-align txt-normal">per service call</p>
+									</div>
+									<div class="v-line m-auto"></div>
+									<p class="center hangNail txt-normal">Pay less per service call.</p>
+								</div>
+								<div>
+									<p class="center m-0">or</p>
+								</div>
+								<div class="col s12">
+									<div class="col s4 m11 card round-12 plan-bg">
+										<h3 class="bold center dark-grey-txt quote-txt-large">$100</h3>
+										<p class="center-align txt-normal">per service call</p>
+									</div>
+								</div>
+								<div>
+									<p class="center m-0">or</p>
+								</div>
+								<div class="col s12 pos-rel">
+									<div class="col s4 m11 card round-12 plan-bg">
+										<h3 class="bold center dark-grey-txt quote-txt-large">$125</h3>
+										<p class="center-align txt-normal">per service call</p>
+									</div>
+									<div class="v-line m-auto"></div>
+									<p class="center hangNail txt-normal">Lower your monthly payment.</p>
+								</div>
+							</div>
+
+							<div class="col m2 valign-wrapper hide-on-small-only">
+								<div class="h-line w-100"></div>
+							</div>
+						</li>
+
+						<li id="reqSvc">
+							<div class="valign-wrapper">
+								<div class="col m3 l4 h-line"></div>
+								<div class="center heading col m6 l4 m-auto">
+									<p class="txt-normal light-grey-txt mt-5">Step 3 of 4</p>
+									<h4>Request Service.</h4>
+									<p class="txt-large blue-txt">When a covered item breaks, request service online or by phone and pay your Trade Service Call Fee.</p>
+								</div>
+								<div class="col m3 l4 h-line"></div>
+							</div>
+						</li>
+
+						<li id="contractor">
+							<!-- 						<div class="col m1 hide-on-med-and-down valign-wrapper"> -->
+							<div class="col m1 valign-wrapper">
+								<div class="h-line w-100"></div>
+							</div>
+							<div class="col s4 m4 valign-wrapper">
+								<img src="./AHShome/img/contractorFridgeShield.jpg">
+							</div>
+							<div class="col w-4 hide-on-med-and-down valign-wrapper"></div>
+							<div class="col s8 m6 valign-wrapper">
+								<div class="pos-rel">
+									<div class="h-line hide-on-med-and-down"></div>
+									<p class="txt-normal light-grey-txt mt-5">Step 4 of 4</p>
+									<h4>We assign a pro.</h4>
+									<p class="txt-large blue-txt">We assign a qualified local contractor to diagnose your covered item and offer a solution.</p>
+									<div class="v-line"></div>
+									<img src="./AHShome/img/contractor-stamp.png">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col s2 m2 l1 next" onclick="slider.next()">
+					<div class="btn-circle center">
+						<i class="fa fa-chevron-right teal-txt" aria-hidden="true"></i>
+					</div>
+					<p class="teal-txt bold txt-large step center">Step 2</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="review" class="col s12">
+			<h3 class="center">American Home Shield Home Warranty Reviews</h3>
+			<div class="mt-5">
+				<div class="col s12 m12 l6">
+					<div class="video v-align-wrapper">
+						<iframe width="440" height="248" src="https://www.youtube.com/embed/qE-iMi9CLeg?rel=0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col s12 m12 l5 pos-rel">
+					<div class="txt-quote-large teal-txt hide-on-med-and-down">“</div>
+					<p class="txt-quote-large teal-txt">
+						<span class="hide-on-large-only">“</span>American Home Shield provides excellent service... I highly recommend it to any homeowner.”
+					</p>
+					<p class="darker-grey-txt txt-normal">— Patricia</p>
+					<div class="txt-normal lighter-grey-txt">American Home Shield Customer Since 2009</div>
+					<a class="btn btn-larger btn-secondary teal-txt">More Reviews</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="blog" class="col s12">
+			<div class="pos-rel">
+				<h3 class="bold">
+					Your
+					<span class="underline">Home Matters</span>.
+					<span class="v-line"></span>
+				</h3>
+			</div>
+			<div class="flex hide-on-small-only">
+				<div class="col s12 m4 card mr-2percent pos-rel">
+					<img src="./AHShome/img/Family1RGB.jpg">
+					<div class="w-75 m-auto">
+						<p class="blue-txt bold">Repair & Maintenance</p>
+						<p class="txt-normal">Busted A/C? Squeaky doors? Finicky appliances? No worries. Browse our blog for practical ways to fix some of your most
+							common household glitches.</p>
+					</div>
+					<a class="txt-normal teal-txt bold">Read More</a>
+					<div class="h-line hide-on-small-only"></div>
+					<div class="v-line"></div>
+					<a class="txt-large blue-txt bold">More Articles</a>
+				</div>
+				<div class="col s12 m4 card mr-2percent pos-rel">
+					<img src="./AHShome/img/Realtor1RGB.jpg">
+					<div class="w-75 m-auto">
+						<p class="blue-txt bold">Real Estate</p>
+						<p class="txt-normal">Shopping for and selling a home can be stressful. To make your housing transition easier, check out tips that will
+							have a positive impact in your life — from maintaining your stress level to executing an open house.
+						</p>
+					</div>
+					<a class="txt-normal teal-txt bold">Read More</a>
+					<div class="h-line hide-on-small-only"></div>
+					<div class="v-line"></div>
+					<a class="txt-large blue-txt bold">More Articles</a>
+				</div>
+				<div class="col s12 m4 card pos-rel">
+					<img src="./AHShome/img/PayBills5.jpg">
+					<div class="w-75 m-auto">
+						<p class="blue-txt bold">Cost Savers</p>
+						<p class="txt-normal">Let our experts help you find ways cut costs and grow your household budget so you can spend more money on the things
+							that are important to you.</p>
+					</div>
+					<a class="txt-normal teal-txt bold">Read More</a>
+					<div class="v-line"></div>
+					<a class="txt-large blue-txt bold">More Articles</a>
+				</div>
+			</div>
+
+			<div class="slider center hide-on-med-and-up">
+				<ul class="slides">
+					<li>
+						<div class="col s12 m4 card mr-2percent pos-rel">
+							<img src="./AHShome/img/Family1RGB.jpg">
+							<div class="w-75 m-auto">
+								<p class="blue-txt bold">Repair & Maintenance</p>
+								<p class="txt-normal">Busted A/C? Squeaky doors? Finicky appliances? No worries. Browse our blog for practical ways to fix some of your
+									most common household glitches.</p>
+							</div>
+							<a class="txt-normal teal-txt bold">Read More</a>
+							<div class="h-line hide-on-small-only"></div>
+							<div class="v-line"></div>
+							<a class="txt-large blue-txt bold">More Articles</a>
+						</div>
+					</li>
+					<li>
+						<div class="col s12 m4 card mr-2percent pos-rel">
+							<img src="./AHShome/img/Realtor1RGB.jpg">
+							<div class="w-75 m-auto">
+								<p class="blue-txt bold">Real Estate</p>
+								<p class="txt-normal">Shopping for and selling a home can be stressful. To make your housing transition easier, check out tips that will
+									have a positive impact in your life — from maintaining your stress level to executing an open house.</p>
+							</div>
+							<a class="txt-normal teal-txt bold">Read More</a>
+							<div class="h-line hide-on-small-only"></div>
+							<div class="v-line"></div>
+							<a class="txt-large blue-txt bold">More Articles</a>
+						</div>
+					</li>
+					<li>
+						<div class="col s12 m4 card pos-rel">
+							<img src="./AHShome/img/PayBills5.jpg">
+							<div class="w-75 m-auto">
+								<p class="blue-txt bold">Cost Savers</p>
+								<p class="txt-normal">Let our experts help you find ways cut costs and grow your household budget so you can spend more money on the things
+									that are important to you.</p>
+							</div>
+							<a class="txt-normal teal-txt bold">Read More</a>
+							<div class="v-line"></div>
+							<a class="txt-large blue-txt bold">More Articles</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="copyright-container" class="container border-top hide-on-small-only txt-normal">
+				<span>©2018 American Home Shield. All rights reserved.</span>
+				<p>Used under the fair use clause.</p>
+				<p>Looking for the actual <a href="http://www.ahs.com" target="_blank">American Home Shield</a>?</p>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="./js/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="./js/ScrollMagic.min.js"></script>
+	<script type="text/javascript" src="./js/materialize.min.js"></script>
+	<script type="text/javascript" src="./AHShome/AHShome.js"></script>
+
+	<link rel="text" href="../css/core.scss">
+	<link rel="text" href="./AHShome/vars.scss">
+	<link rel="text" href="./AHShome/AHShome.scss">
+
+</body>
+
+</html>
